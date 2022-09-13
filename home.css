@@ -1,0 +1,79 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover{
+    color:  cyan;
+  }
+
+
+  /*Help from net*/
+  .animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    cyan 0%,
+    lime 29%,
+    yellow 67%,
+    rgb(255, 122, 122) 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+ 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 190px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+/*on my own*/
+#h4{
+  color: white;
+  animation-name: h4;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  font-family: cursive;
+}
+
+ @keyframes h4{
+  from{color:#fff;}
+  to{color: rgb(255, 0, 0);}
+}
+
+#note{
+background-color: rgb(224, 42, 42);
+color: #fff;
+width: 800px;
+}
+
+#main23{
+  width: 50px;
+      margin-left: 560px !important;
+      margin-top: 0px !important;
+}

@@ -1,0 +1,25 @@
+#elephant_statue{
+    background-color: white;
+    border: 0px;
+    width: 200px;
+   margin-right: 200px;
+   margin-left: 20px;
+}
+
+#elephant{
+    background-color: white; 
+}
+
+#bsimg{
+    width: 300px;
+}
+
+#etsy{
+    color: rgb(167, 255, 214);
+    margin-top: 30px;
+    background-color: white;
+    border: 2px;
+    border-style: solid;
+    border-color: aqua;
+    margin-bottom: 35px;
+}
